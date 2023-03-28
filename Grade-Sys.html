@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading System</title>
+    <link rel="stylesheet" href="Grade-Sys.css">
+
+</head>
+
+<body>
+    <div class="cal-body">
+        <div class="result">
+            <div class="result1">
+                <h1>Result</h1>
+                <div class="show">
+                    <h2>Total:<span id="total"></span></h2><br>
+                    <h2>Percentage:<span id="percent"></span></h2><br>
+                    <h2>Remarks:<span id="grade"></span></h2><br>
+                </div>
+            </div>
+        </div>
+        <div class="main-inp">
+            <div class="inp">
+                <input type="number" name="" id="wsys" placeholder="Web. Sys."><br>
+                <input type="number" name="" id="sia" placeholder="SIA"><br>
+                <input type="number" name="" id="im" placeholder="IM"><br>
+                <input type="number" name="" id="networking" placeholder="Networking"><br>
+                <input type="number" name="" id="ethics" placeholder="Ethics"><br>
+                <button onclick="getResult()">Calculate</button>
+            </div>
+        </div>
+        <div class="result-show">
+        </div>
+    </div>
+
+</body>
+<script src="Grade-Sys.js"></script>
+
+</html>
