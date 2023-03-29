@@ -16,6 +16,7 @@ body {
 
 }
 
+
 .cal-body {
     background: radial-gradient(rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.5));
     border-radius: 20px;
@@ -93,12 +94,12 @@ button {
 }
 
 .result-show{
+    margin-top: 600px;
     text-align: center;
-    height: 50px;
+    height: 60px;
     width: 50vw;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    margin-top: 458px;
     background-color: rgb(69, 245, 121);
 }
 
