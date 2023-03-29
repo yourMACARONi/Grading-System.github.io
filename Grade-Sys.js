@@ -5,6 +5,8 @@ const getResult = () => {
     let im = document.getElementById('im').value;
     let networking = document.getElementById('networking').value;
     let ethics = document.getElementById('ethics').value;
+    let rizal = document.getElementById('rizal').value;
+    let pathfit = document.getElementById('pathfit').value;
 
     let total = parseFloat(wsys) + parseFloat(sia) + parseFloat(im) + parseFloat(networking) + parseFloat(ethics);
     let percent=(total*100)/500;
