@@ -12,7 +12,7 @@ body {
     align-items: center;
     min-height: 100vh;
     display: flex;
-    background-color: rgb(143, 248, 234);
+    background-image: linear-gradient(to bottom right, red, yellow);
 
 }
 
@@ -94,13 +94,13 @@ button {
 }
 
 .result-show{
-    margin-top: 600px;
+    margin-top: 595px;
     text-align: center;
-    height: 60px;
+    height: 65px;
     width: 50vw;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    background-color: rgb(69, 245, 121);
+    background-image: linear-gradient(red, yellow, green);
 }
 
  
