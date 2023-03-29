@@ -9,11 +9,15 @@ const getResult = () => {
     let total = parseFloat(wsys) + parseFloat(sia) + parseFloat(im) + parseFloat(networking) + parseFloat(ethics);
     let percent=(total*100)/500;
 
-        if(percent>=95){
+
+        if(percent>=100){
+            document.getElementById('grade').innerHTML = "ERROR!";
+        }
+        else if(percent>=95){
             document.getElementById('grade').innerHTML = "Very Satisfactory";
         }
         else if(percent>=90){
-            document.getElementById('grade').innerHTML = "Ahhh Satisfactory";
+            document.getElementById('grade').innerHTML = "Satisfactory";
         }
         else if(percent>=85){
             document.getElementById('grade').innerHTML = "Very Good";
